@@ -10,7 +10,7 @@ This study aims to improve academic evaluations by predicting whether a student 
 The goal is to help test developers build an application that precisely evaluates competencies so that fewer demonstrations of proficiency can accurately determine mastery.
 
 ## APPROACH
-1. **Data Collection & Initial Exploration**: Download the grockit\_all_data.zip data file from the Grockit competition on Kaggle, and begin creating data visualizations using Python technologies.
+1. **Data Collection & Initial Exploration**: Download the grockit\_all_data.zip data file from the [Grockit competition on Kaggle](https://www.kaggle.com/c/WhatDoYouKnow/data), and begin creating data visualizations using Python technologies.
 
 2. **Data Wrangling and Cleaning**: Employ Python to isolate important information; rectify missing, invalid or corrupted values; analyze outliers and decide how to handle them.
 

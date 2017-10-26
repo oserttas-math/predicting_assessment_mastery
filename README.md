@@ -26,7 +26,7 @@ Stay tuned...
 
 ## REPORTS
 * [Project Proposal](/capstone_reports/project_proposal.pdf)
-* Notebooks
+* [Notebooks](/notebooks)
 * Final Report
 * Slide presentation
 * Video presentation

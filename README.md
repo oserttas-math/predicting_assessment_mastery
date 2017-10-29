@@ -10,7 +10,7 @@ This study aims to improve academic evaluations by predicting whether a student 
 The goal is to help test developers build an application that precisely evaluates competencies so that fewer demonstrations of proficiency can accurately determine mastery.
 
 ## APPROACH
-1. [**Data Wrangling & Initial Exploration**](/notebooks/1.0-humburgc-initial_data_exploration.ipynb): Download the `grockit_all_data.zip` data file from the [Grockit competition on Kaggle](https://www.kaggle.com/c/WhatDoYouKnow/data). Employ Python technologies to import and inspect the raw `training.csv` data, isolate relevant variables, organize the dataframe, and rectify duplicate, missing, invalid or corrupted values. Begin creating data visualizations to inspect variables and analayze outliers.
+1. [**Data Wrangling & Initial Exploration**](/notebooks/1.0-humburgc-initial_data_exploration.ipynb): Download the `grockit_all_data.zip` data file from the [Grockit competition on Kaggle](https://www.kaggle.com/c/WhatDoYouKnow/data). Employ Python technologies to import and inspect the raw `training.csv` data, isolate relevant variables, organize the dataframe, and rectify duplicate, missing, invalid or corrupted values. Begin creating data visualizations to inspect variables and analyze outliers.
 
 2. **Exploratory Data Analysis & Inferential Statistics**: Continue with data visualization, using plots to gain insights, look for correlations, consider a hypothesis to explore, then leverage statistical inference to test the hypothesis.
 

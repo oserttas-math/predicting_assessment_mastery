@@ -23,7 +23,7 @@ The goal is to help test developers build an application that precisely evaluate
 Stay tuned...
 
 ## REPORTS
-* [Project Proposal](/capstone_reports/project_proposal.pdf)
+* [Project Proposal](/reports/project_proposal.pdf)
 * [Notebooks](/notebooks)
 * Final Report
 * Slide presentation

@@ -24,6 +24,7 @@ Stay tuned...
 
 ## REPORTS
 * [Project Proposal](/reports/project_proposal.pdf)
+* [Data Wrangling Report](/reports/data_wrangling.pdf)
 * [Notebooks](/notebooks)
 * Final Report
 * Slide presentation

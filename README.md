@@ -10,9 +10,9 @@ This study aims to improve academic evaluations by predicting whether a student 
 The goal is to help test developers build an application that precisely evaluates competencies so that fewer demonstrations of proficiency can accurately determine mastery.
 
 ## APPROACH
-1. [**Data Wrangling & Initial Exploration**](http://nbviewer.jupyter.org/github/humburgc/academic_mastery_study/blob/master/notebooks/initial_data_exploration.ipynb): Download the `grockit_all_data.zip` data file from the Grockit competition on Kaggle, found here: https://www.kaggle.com/c/WhatDoYouKnow/data. Employ Python technologies to import and inspect the raw `training.csv` data, isolate relevant variables, calculate new variables, organize the dataframe, and resolve missing, invalid, corrupted or duplicate values. Begin creating data visualizations to inspect variables and analyze outliers.
+1. [**Initial Data Exploration**](http://nbviewer.jupyter.org/github/humburgc/academic_mastery_study/blob/master/notebooks/initial_data_exploration.ipynb) (Data Wrangling): Download the `grockit_all_data.zip` data file from the Grockit competition on Kaggle, found here: https://www.kaggle.com/c/WhatDoYouKnow/data. Employ Python technologies to import and inspect the raw `training.csv` data, isolate relevant variables, calculate new variables, organize the dataframe, and resolve missing, invalid, corrupted or duplicate values. Begin creating data visualizations to inspect variables and analyze outliers.
 
-2. **Exploratory Data Analysis & Inferential Statistics**: Continue with data visualization, using plots to gain insights, look for correlations, consider a hypothesis to explore, then leverage statistical inference to test the hypothesis.
+2. [**Exploratory Data Analysis**](http://nbviewer.jupyter.org/github/humburgc/academic_mastery_study/blob/master/notebooks/exploratory_data_analysis.ipynb): Continue with data visualization, using plots to gain insights, look for correlations, consider a hypothesis to explore, then leverage statistical inference to test the hypothesis.
 
 3. **Machine Learning**: Apply (to-be-determined) machine learning algorithms, evaluating the performance of each, and decide on the right one to use for this study.
 

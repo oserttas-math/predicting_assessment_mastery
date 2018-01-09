@@ -1,6 +1,5 @@
 # Academic Mastery Study
-A CAPSTONE PROJECT FOR THE SPRINGBOARD DATA SCIENCE INTENSIVE
-***
+
 
 ## SUMMARY
 Students taking advantage of practice exercises through various software applications seek an evaluation of their preparedness for formal academic assessments. Students tend to quit an application if it is too boring or give up if the questions are too challenging. They would like an an accurate evaluation of any gaps in knowledge and skills without sitting through an assessment that repeatedly tests established proficiencies and difficulties.

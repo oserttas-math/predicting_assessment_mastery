@@ -13,7 +13,7 @@ The goal is to help test developers build an application that precisely evaluate
 
 2. [**Exploratory Data Analysis**](http://nbviewer.jupyter.org/github/humburgc/academic_mastery_study/blob/master/notebooks/exploratory_data_analysis.ipynb?flush_cache=true): Continue with data visualization, using plots to gain insights, look for correlations, consider a hypothesis to explore, then leverage statistical inference to test the hypothesis.
 
-3. **Machine Learning**: Apply (to-be-determined) machine learning algorithms, evaluating the performance of each, and decide on the right one to use for this study.
+3. **Machine Learning Analysis**: Apply (to-be-determined) machine learning algorithms, evaluating the performance of each, and decide on the right one to use for this study.
 
 4. **Final Reports & Presentations**
 
@@ -23,7 +23,8 @@ Stay tuned...
 
 ## REPORTS
 * [Project Proposal](/reports/project_proposal.pdf)
-* [Data Wrangling Report](/reports/data_wrangling.pdf)
+* [Initial Data Exploration](/reports/initial_data_exploration.pdf)
+* [Exploratory Data Analysis](/reports/exploratory_data_analysis.pdf)
 * [Notebooks](/notebooks)
 * Final Report
 * Slide presentation

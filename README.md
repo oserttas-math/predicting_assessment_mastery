@@ -2,30 +2,25 @@
 
 
 ## SUMMARY
-Students taking advantage of practice exercises through various software applications seek an evaluation of their preparedness for formal academic assessments. Students tend to quit an application if it is too boring or give up if the questions are too challenging. They would like an an accurate evaluation of any gaps in knowledge and skills without sitting through an assessment that repeatedly tests established proficiencies and difficulties.
+Students taking advantage of practice exercises through various software applications seek an evaluation of their preparedness for formal academic assessments.
 
-This study aims to improve academic evaluations by predicting whether a student will answer the next test question correctly. The project examines data from students preparing for three tests: the GMAT, SAT and ACT. Question fields in the dataset indicate outcome, group (test for which the student is preparing), track (test subject), sub-track, topics, question format, and times for when the question was started and answered or deactivated (timed-out). The study investigates relationships that could predict observations under the field labeled ‘correct’.
-
-The goal is to help test developers build an application that precisely evaluates competencies so that fewer demonstrations of proficiency can accurately determine mastery.
+The goal of this project is to help test developers understand user performance by predicting whether a student answers a test question correctly. The project examines data from students preparing for three tests: the GMAT, SAT and ACT. Question fields in the dataset indicate outcome, group (test for which the student is preparing), track (test subject), sub-track, tags, question format, and times for when the question was started and answered or deactivated (timed-out). Relationships that could predict observations under the field labeled ‘correct’ are explored and modeled.
 
 ## APPROACH
-1. [**Initial Data Exploration**](http://nbviewer.jupyter.org/github/humburgc/academic_mastery_study/blob/master/notebooks/initial_data_exploration.ipynb?flush_cache=true) (Data Wrangling): Download the `grockit_all_data.zip` data file from the Grockit competition on Kaggle, found here: https://www.kaggle.com/c/WhatDoYouKnow/data. Employ Python technologies to import and inspect the raw `training.csv` data, isolate relevant variables, calculate new variables, organize the dataframe, and resolve missing, invalid, corrupted or duplicate values. Begin creating data visualizations to inspect variables and analyze outliers.
+1. [**Initial Data Exploration**](http://nbviewer.jupyter.org/github/humburgc/academic_mastery_study/blob/master/notebooks/initial_data_exploration.ipynb?flush_cache=true) (Data Wrangling): Download the `grockit_all_data.zip` file from the [Grockit competition on Kaggle](https://www.kaggle.com/c/WhatDoYouKnow/data). Import and inspect raw training data. Isolate relevant variables, fill or calculate new variables, and organize the dataframe. Resolve missing, invalid, corrupted or duplicate values.
 
-2. [**Exploratory Data Analysis**](http://nbviewer.jupyter.org/github/humburgc/academic_mastery_study/blob/master/notebooks/exploratory_data_analysis.ipynb?flush_cache=true): Continue with data visualization, using plots to gain insights, look for correlations, consider a hypothesis to explore, then leverage statistical inference to test the hypothesis.
+2. [**Exploratory Data Analysis**](http://nbviewer.jupyter.org/github/humburgc/academic_mastery_study/blob/master/notebooks/exploratory_data_analysis.ipynb?flush_cache=true): Create data visualizations to explain variables and analyze outliers. Possibly remove or mark outliers. Explore variable dependence and correlations. 
 
-3. **Machine Learning Analysis**: Apply (to-be-determined) machine learning algorithms, evaluating the performance of each, and decide on the right one to use for this study.
-
-4. **Final Reports & Presentations**
+3. **Machine Learning Analysis**: Build, fit, and validate a method to model the data. Evaluate the performance of each model tested. Methods to try: Logistic Regression, Random Forest, Linear Mixed Effects, Mixed Effects Random Forest, XGBoost.
 
 
 ## FINAL RESULTS
-Stay tuned...
+EDA determined that test groups are independent - no questions, tracks or subtracks overlap groups but only a small number of users practiced in more than one test group - and the GMAT group provides the most data, so it was isolated and used for modeling and predicting outcome.
+
+Stay tuned for more...
 
 ## REPORTS
-* [Project Proposal](/reports/project_proposal.pdf)
 * [Initial Data Exploration](/reports/initial_data_exploration.pdf)
 * [Exploratory Data Analysis](/reports/exploratory_data_analysis.pdf)
 * [Notebooks](/notebooks)
-* Final Report
-* Slide presentation
-* Video presentation
+* [Final Report](/reports/final_report.pdf)

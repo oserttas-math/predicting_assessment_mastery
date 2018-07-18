@@ -15,9 +15,9 @@ The goal of this project is to help test developers understand user progress by 
 
 
 ## FINAL RESULTS
-EDA determined that while a small amount of users practice in more than one test group, no overlap in questions indicates the test groups are independent. For each test group, outcomes are better across all subjects for users attempting at least 30 questions. This effect is most dramatic for the GMAT group. Of all scenarios, average scores are best amongst the dedicated GMAT users.
+EDA determined that a small number of users practiced in more than one test group; however, no overlap in questions indicates the test groups are independent. For each test group, outcomes are better across all subjects for dedicated users (attempting at least 30 questions). This effect is most dramatic for the GMAT group. Of all scenarios, average scores are best amongst the dedicated GMAT users.
 
-Stay tuned for more...
+Stay tuned for conclusions...
 
 ## REPORTS
 * [Project Proposal](/reports/project_proposal.pdf)

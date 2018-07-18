@@ -4,7 +4,7 @@
 ## SUMMARY
 Students taking advantage of practice exercises through various software applications seek an evaluation of their preparedness for formal academic assessments.
 
-The goal of this project is to help test developers understand user performance by predicting whether a student answers a test question correctly. The project examines data from students preparing for three tests: the GMAT, SAT and ACT. Question fields in the dataset indicate outcome, group (test for which the student is preparing), track (test subject), sub-track, tags, question format, and times for when the question was started and answered or deactivated (timed-out). Relationships that could predict observations under the field labeled ‘correct’ are explored and modeled.
+The goal of this project is to help test developers understand user progress by predicting whether a student answers a test question correctly. The project examines data from students preparing for three tests: the GMAT, SAT and ACT. Question fields in the dataset indicate outcome, group (test for which the student is preparing), track (test subject), sub-track, tags, question format, and times for when the question was started and answered or deactivated (timed-out). Relationships that could predict observations under the field labeled ‘correct’ are explored and modeled.
 
 ## APPROACH
 1. [**Initial Data Exploration**](http://nbviewer.jupyter.org/github/humburgc/academic_mastery_study/blob/master/notebooks/initial_data_exploration.ipynb?flush_cache=true) (Data Wrangling): Download the `grockit_all_data.zip` file from the [What Do You Know? competition on Kaggle](https://www.kaggle.com/c/WhatDoYouKnow/data). Import and inspect raw training data. Isolate relevant variables, fill or calculate new variables, and organize the dataframe. Resolve missing, invalid, corrupted or duplicate values.
@@ -15,11 +15,12 @@ The goal of this project is to help test developers understand user performance 
 
 
 ## FINAL RESULTS
-EDA determined that test groups are independent - no questions, tracks or subtracks overlap groups but only a small number of users practiced in more than one test group - and the GMAT group provides the most data, so it was isolated and used for modeling and predicting outcome.
+EDA determined that while a small amount of users practice in more than one test group, no overlap in questions indicates the test groups are independent. For each test group, outcomes are better across all subjects for users attempting at least 30 questions. This effect is most dramatic for the GMAT group. Of all scenarios, average scores are best amongst the dedicated GMAT users.
 
 Stay tuned for more...
 
 ## REPORTS
+* [Project Proposal](/reports/project_proposal.pdf)
 * [Initial Data Exploration](/reports/initial_data_exploration.pdf)
 * [Exploratory Data Analysis](/reports/exploratory_data_analysis.pdf)
 * [Notebooks](/notebooks)
